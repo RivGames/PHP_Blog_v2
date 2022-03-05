@@ -1,0 +1,12 @@
+[2022-02-19 18:14:38]Текст ошибкиUndefined variable: test | Файл: C:\OpenServer\domains\fw.loc\public\test\error\index.php | Строка: 60
+=============
+[2022-02-19 18:15:03]Текст ошибкиUndefined variable: test1 | Файл: C:\OpenServer\domains\fw.loc\public\test\error\index.php | Строка: 60
+=============
+[2022-02-19 18:16:52]Текст ошибкиUndefined variable: test1 | Файл: C:\OpenServer\domains\fw.loc\public\test\error\index.php | Строка: 61
+=============
+[2022-02-19 18:20:28]Текст ошибкиCall to undefined function fall() | Файл: C:\OpenServer\domains\fw.loc\public\test\error\index.php | Строка: 62
+=============
+[2022-02-19 18:21:44]Текст ошибкиCall to undefined function fall() | Файл: C:\OpenServer\domains\fw.loc\public\test\error\index.php | Строка: 62
+=============
+[2022-02-19 18:22:07]Текст ошибкиCall to undefined function fall() | Файл: C:\OpenServer\domains\fw.loc\public\test\error\index.php | Строка: 62
+=============
