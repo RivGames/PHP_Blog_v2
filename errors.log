@@ -1138,3 +1138,165 @@
 =============
 [2022-03-05 23:38:03]Текст ошибкиUndefined index: login | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\base\Model.php | Строка: 56
 =============
+[2022-03-06 11:50:32]Текст ошибкиUndefined index: role | Файл: C:\OpenServer\domains\php_blog_v2.local\app\views\User\profile.php | Строка: 16
+=============
+[2022-03-06 11:51:49]Текст ошибкиUndefined index: role | Файл: C:\OpenServer\domains\php_blog_v2.local\app\views\User\profile.php | Строка: 13
+=============
+[2022-03-06 11:52:48]Текст ошибкиUndefined index: role | Файл: C:\OpenServer\domains\php_blog_v2.local\app\views\User\profile.php | Строка: 13
+=============
+[2022-03-06 11:53:36]Текст ошибкиUndefined index: role | Файл: C:\OpenServer\domains\php_blog_v2.local\app\views\User\profile.php | Строка: 13
+=============
+[2022-03-06 11:55:40]Текст ошибкиUndefined index: user | Файл: C:\OpenServer\domains\php_blog_v2.local\public\index.php | Строка: 22
+=============
+[2022-03-06 11:55:52]Текст ошибкиUndefined index: user | Файл: C:\OpenServer\domains\php_blog_v2.local\public\index.php | Строка: 22
+=============
+[2022-03-06 11:55:53]Текст ошибкиUndefined index: user | Файл: C:\OpenServer\domains\php_blog_v2.local\public\index.php | Строка: 22
+=============
+[2022-03-06 11:56:05]Текст ошибкиUndefined index: user | Файл: C:\OpenServer\domains\php_blog_v2.local\public\index.php | Строка: 22
+=============
+[2022-03-06 12:01:21]Текст ошибкиUndefined index: user | Файл: C:\OpenServer\domains\php_blog_v2.local\public\index.php | Строка: 22
+=============
+[2022-03-06 13:23:29]Текст ошибкиSQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog_v2.users' doesn't exist | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-06 13:37:34]Текст ошибкиМетод <b> app\controllers\PostController::deletePostAction <b>не найден | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\Router.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\Router.php
+=============
+[2022-03-06 13:53:37]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php
+=============
+[2022-03-06 13:54:17]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php
+=============
+[2022-03-06 13:54:20]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php
+=============
+[2022-03-06 13:55:19]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php
+=============
+[2022-03-06 13:55:42]Текст ошибкиcompact(): Undefined variable: title | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\admin\UserController.php | Строка: 12
+=============
+[2022-03-06 13:56:03]Текст ошибкиcompact(): Undefined variable: title | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\admin\UserController.php | Строка: 12
+=============
+[2022-03-06 13:56:04]Текст ошибкиcompact(): Undefined variable: title | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\admin\UserController.php | Строка: 12
+=============
+[2022-03-06 13:56:04]Текст ошибкиcompact(): Undefined variable: title | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\admin\UserController.php | Строка: 12
+=============
+[2022-03-06 13:56:05]Текст ошибкиcompact(): Undefined variable: title | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\admin\UserController.php | Строка: 12
+=============
+[2022-03-06 13:56:33]Текст ошибкиUndefined variable: posts | Файл: C:\OpenServer\domains\php_blog_v2.local\app\views\admin\User\index.php | Строка: 11
+=============
+[2022-03-06 13:56:52]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php
+=============
+[2022-03-06 13:56:55]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\Admin.php
+=============
+[2022-03-06 14:01:05]Текст ошибкиUndefined variable: users | Файл: C:\OpenServer\domains\php_blog_v2.local\app\views\admin\User\index.php | Строка: 18
+=============
+[2022-03-06 14:16:59]Текст ошибкиНе найден вид <b>C:\OpenServer\domains\php_blog_v2.local/app/views/admin\User/ban.php</b> | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\base\View.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\base\View.php
+=============
+[2022-03-06 14:21:00]Текст ошибкиOODB Store requires a bean, got: string | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-06 14:33:40]Текст ошибкиSQLSTATE[42S22]: Column not found: 1054 Unknown column 'e' in 'where clause' | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-06 14:39:53]Текст ошибкиНе найден вид <b>C:\OpenServer\domains\php_blog_v2.local/app/views/admin\User/unBan.php</b> | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\base\View.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\base\View.php
+=============
+[2022-03-06 15:16:59]Текст ошибкиSQLSTATE[42S22]: Column not found: 1054 Unknown column 'avatar' in 'field list' | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-06 15:18:05]Текст ошибкиTrying to access array offset on value of type null | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 84
+=============
+[2022-03-06 15:18:47]Текст ошибкиTrying to access array offset on value of type null | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 84
+=============
+[2022-03-06 15:18:49]Текст ошибкиTrying to access array offset on value of type null | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 84
+=============
+[2022-03-06 15:18:51]Текст ошибкиTrying to access array offset on value of type null | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 84
+=============
+[2022-03-06 15:19:39]Текст ошибкиTrying to access array offset on value of type null | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 84
+=============
+[2022-03-06 15:21:57]Текст ошибкиTrying to get property 'role' of non-object | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 84
+=============
+[2022-03-06 15:23:48]Текст ошибкиTrying to access array offset on value of type null | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 84
+=============
+[2022-03-06 15:25:50]Текст ошибкиUndefined index: user | Файл: C:\OpenServer\domains\php_blog_v2.local\public\index.php | Строка: 22
+=============
+[2022-03-06 15:27:05]Текст ошибкиTrying to access array offset on value of type null | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 84
+=============
+[2022-03-06 15:38:31]Текст ошибкиUndefined variable: login | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 71
+=============
+[2022-03-06 16:20:42]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:22:32]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:22:34]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:22:34]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:22:34]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:22:34]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:22:35]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:22:35]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:22:35]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:23:28]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:23:29]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:23:29]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:25:05]Текст ошибкиUndefined index: avatar | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\UserController.php | Строка: 130
+=============
+[2022-03-06 16:25:20]Текст ошибкиFunction name must be a string | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-06 16:28:02]Текст ошибкиmove_uploaded_file(\upload\avatars488440e171b1fa82c9d53a67421ef76a.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:29:02]Текст ошибкиmove_uploaded_file(\uploads\avatars7c737916b418feaa2763bb74d7b308a7.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:29:02]Текст ошибкиmove_uploaded_file(\uploads\avatars7f4a20df56814e28e69f0f0013d12182.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:29:03]Текст ошибкиmove_uploaded_file(\uploads\avatarsa16db7b92f1b134a651bb7d40c839657.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:29:03]Текст ошибкиmove_uploaded_file(\uploads\avatarsb439651428ae04be0bdfce827e738a62.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:29:04]Текст ошибкиmove_uploaded_file(\uploads\avatars170d32553697ca48fd9b6de9b7d300f9.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:29:04]Текст ошибкиmove_uploaded_file(\uploads\avatars0272f370fd6a894c51b375cbdf9635a3.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:30:32]Текст ошибкиmove_uploaded_file(uploads\avatars38f63026fc176cadb976650d6fb891e7.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:30:37]Текст ошибкиНе найден вид <b>C:\OpenServer\domains\php_blog_v2.local/app/views/User/uploadAvatar.php</b> | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\base\View.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\base\View.php
+=============
+[2022-03-06 16:30:51]Текст ошибкиmove_uploaded_file(uploads\avatarsd5310ca23ee6fba8b2cd3a6d7dba09a7.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:32:02]Текст ошибкиmove_uploaded_file(uploads\avatars88560bd0a840f418b3fe4ecd70e95f41.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:32:16]Текст ошибкиmove_uploaded_file(\uploads\avatars\5aa4b6f2dd79e7c32eee485ab7a68ede.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:32:56]Текст ошибкиmove_uploaded_file(\uploads\avatars\7ab8c4bbb160b86ea99f18329fce3d80.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:36:04]Текст ошибкиmove_uploaded_file(\uploads\avatars\): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:36:05]Текст ошибкиmove_uploaded_file(\uploads\avatars\): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:36:24]Текст ошибкиmove_uploaded_file(\uploads\avatars): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:36:25]Текст ошибкиmove_uploaded_file(\uploads\avatars): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:37:24]Текст ошибкиmove_uploaded_file(uploads\avatars): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:37:25]Текст ошибкиmove_uploaded_file(uploads\avatars): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:41:48]Текст ошибкиmove_uploaded_file(uploads\avatars2277aba8c165f09cc40c11dbd067f6fe.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 16:42:37]Текст ошибкиmove_uploaded_file(\uploads\avatars0ba68a7f0676c8192d2283568a476224.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 17:18:09]Текст ошибкиmove_uploaded_file(\uploads\avatars7591849e94d8ebff4c38cca7be3a47b7.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 17:23:51]Текст ошибкиmove_uploaded_file(\..\uploads\avatarsed9fe3880a91c4d2ca6fea64f13c00d9.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 17:23:52]Текст ошибкиmove_uploaded_file(\..\uploads\avatars14c35c2de11f77a00f7a6815702d988a.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 17:23:53]Текст ошибкиmove_uploaded_file(\..\uploads\avatarsfe1339e86116e8dc7394449847706788.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 17:23:54]Текст ошибкиmove_uploaded_file(\..\uploads\avatarse2ae8eaa601868466b564df05cbba3cd.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 17:23:54]Текст ошибкиmove_uploaded_file(\..\uploads\avatarsd5616dec5f30b79784b82d1fea3b5188.png): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 170
+=============
+[2022-03-06 17:24:47]Текст ошибкиНе найден вид <b>C:\OpenServer\domains\php_blog_v2.local/app/views/User/uploadAvatar.php</b> | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\base\View.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\base\View.php
+=============

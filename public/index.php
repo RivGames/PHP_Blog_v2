@@ -14,8 +14,12 @@ require __DIR__ . '/../vendor/autoload.php';
 new ErrorHandler();
 $query = $_SERVER['REQUEST_URI'];
 session_start();
-//
-//debug($_SESSION['user']['login']);
+//TODO: 1.Зробить админку с возможностью банить пользователей
+//TODO: 2.Загрузка аватарки в профиле
+//TODO: 3.Реализовать опрос на сайте
+//TODO: 4.Сделать онлайн на сайте
+//TODO: 5.По возможности сделать редактирование постов
+//debug($_SESSION['user']);
 Router::add('^/public/post/posts/$',['controller' => 'Post','action'=>'posts']);
 //admin
 Router::add('^/public/admin/$',['controller' => 'User', 'action' => 'index','prefix' => 'admin']);

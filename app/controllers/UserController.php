@@ -21,8 +21,6 @@ class UserController extends AppController
             if ($user->save('user'))
             {
                 $_SESSION['success'] = 'Вы успешно зарегистрировались';
-                // $_SESSION['login'] = $data['login'];
-                //$_SESSION['user'];
                 redirect('/public/user/profile');
             }else 
             {
@@ -72,12 +70,14 @@ class UserController extends AppController
             $login = $_SESSION['user']['login'];
             $name = $_SESSION['user']['name'];
             $date =$_SESSION['user']['date'];
-            $this->set(compact('title','login','name','date'));
+            $avatar = $_SESSION['user']['avatar'];
+            $this->set(compact('title','login','name','date','avatar'));
 
         }else
         {
             redirect('/public/user/login');
         }
+
     }
     public function deleteAction()
     {
@@ -121,6 +121,20 @@ class UserController extends AppController
             }
         }
     }
+    public function uploadAvatarAction()
+    {
+        $title =' ';
+        $data = $_POST;
+        $user = new User();
+        if(isset($data['set_avatar'])){
+            $avatar = $_FILES['avatar'];
+            if($user->avatarSecurity($avatar)){
+                $user->loadAvatar($avatar);
+            }else{
 
+            }
+        }
+        $this->set(compact('title'));
+    }
     
 }

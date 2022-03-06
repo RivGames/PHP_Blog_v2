@@ -1,2 +1,1 @@
-<h1>Блог v2</h1>
-<?= $title ?>
+<h1>Новая версия блога!<span class="badge badge-secondary">New</span></h1>

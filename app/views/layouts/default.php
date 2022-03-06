@@ -25,10 +25,10 @@
     <a class="nav-link" href="/public/user/profile">Профиль</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/public/post/createArticle">Создать статью</a>
+    <a class="nav-link" href="/public/post/createArticle">Создать пост</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/public/post/posts">Статьи</a>
+    <a class="nav-link" href="/public/post/posts">Посты</a>
   </li>
 </ul>
     <?php if(isset($_SESSION['error'])): ?>

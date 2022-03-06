@@ -8,6 +8,7 @@ class User extends Model
         'password' => '',
         'name' => '',
         'role' => '1',//тоисть обычный пользователь role=0 это забаненый
+        'avatar'=>'uploads\avatars\default_avatar.jpg',
     ];
     public $attributes1 = [
         'newpassword' => '',
@@ -80,12 +81,12 @@ class User extends Model
         if($login && $password)
         {
             $user = \R::findOne('user','login= ? LIMIT 1',[$login]);
-            $role = $user['role'];
             if($user)
             {
+                $role = $user['role'];
                 if(password_verify($password,$user->password))
                 {   
-                    if($role == 1)
+                    if($role == 1 or $role == 2 or $role == 3)
                     {
                         foreach($user as $k=> $v)
                         {
@@ -139,5 +140,39 @@ class User extends Model
             }
         }
         return false;
+    }
+    public function avatarSecurity($avatar)
+    {
+        $name = $avatar['name'];
+        $type = $avatar['type'];
+        $size = $avatar['size'];
+        $blacklist = [
+            '.php','.js','.html','.exe','.gif',
+        ];
+        foreach($blacklist as $row){
+            if(preg_match("#$row\$#i",$name))
+                return false;
+        }
+        if(($type != "image/png") && ($type != "image/jpg") && ($type != "image/jpeg")){
+            return false;
+        }
+        if($size > 5 * 1024 * 1024){
+            return false;
+        }
+        return true;
+    }
+    public function loadAvatar($avatar)
+    {
+        $type = $avatar['type'];
+        $uploaddir = '/uploads/avatars';
+        $uploadfile = $uploaddir . basename($_FILES['avatar']['name']);
+        if(move_uploaded_file($_FILES['avatar']['tmp_name'], $uploadfile)){
+            $user = \R::findOne('user','id=?',[$_SESSION['user']['id']]);
+            $user['avatar'] = $uploadfile;
+            \R::store($user);
+        }else{
+            return false;
+        }
+        return true;
     }
 }
