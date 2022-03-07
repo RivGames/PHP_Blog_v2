@@ -1,12 +1,15 @@
 <?php
 namespace fw\core;
 use R;
+/**
+ * Класс Db
+ * Подключение к базе данных,когда я первый раз использовал PDO
+ * но мне больше понравилась ORM ReadBeanPHP
+ */
 class Db
 {
     protected $pdo;
     protected static $instance;
-    public static $countSql = 0;
-    public static $queries = [];
     protected function __construct()
     {
 

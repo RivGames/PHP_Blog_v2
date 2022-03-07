@@ -3,7 +3,6 @@ namespace fw\core;
 
 class ErrorHandler
 {   
-    // const DEBUG = 1;
     public function __construct()
     {
         if (DEBUG) {
@@ -19,18 +18,19 @@ class ErrorHandler
     public function errorHandler($errno, $errstr, $errfile, $errline)
     {   
         $this->logErrors($errstr,$errfile,$errline);
-        //error_log("[" . date('Y-m-d H:i:s') . "]Текст ошибки{$errstr} | Файл: {$errfile} | Строка: {$errline}\n=============\n", 3, __DIR__ . '/errors.log');
         $this->displayError($errno, $errstr, $errfile, $errline);
         return true;
     }
     public function fatalErrorHandler()
     {
         $error = error_get_last();
-        if (!empty($error) && $error['type'] & (E_ERROR or E_PARSE or E_COMPILE_ERROR or E_CORE_ERROR)) {
+        if (!empty($error) && $error['type'] & (E_ERROR or E_PARSE or E_COMPILE_ERROR or E_CORE_ERROR))
+        {
             $this->logErrors($error['message'],$error['file'],$error['line']);
             ob_end_clean();
             $this->displayError($error['type'], $error['message'], $error['file'], $error['line']);
-        } else {
+        } else
+        {
             ob_end_flush();
         }
     }
@@ -45,13 +45,16 @@ class ErrorHandler
     protected function displayError($errno, $errstr, $errfile, $errline, $response = 500)
     {
         http_response_code($response);
-        if($response == 404 and !DEBUG){
+        if($response == 404 and !DEBUG)
+        {
             require WWW . '/errors/404.html';
             die;
         }
-        if (DEBUG) {
+        if (DEBUG)
+        {
             require WWW . '/errors/dev.php';
-        } else {
+        } else
+        {
             require WWW . '/errors/prod.php';
         }
         die();
