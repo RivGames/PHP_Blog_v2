@@ -3,14 +3,18 @@ namespace fw\core\base;
 use fw\core\Db;
 use Valitron\Validator;
 abstract class Model
-{
+{   
+    protected $pdo;
     protected $table;
     public $attributes;
     public $attributes2;
     public $errors = [];
     public $rules = [];
     public $rules2 =[];
-
+    public function __construct()
+    {
+        $this->pdo = Db::instance();
+    }
     public function load($data)
     {
         foreach($this->attributes as $name => $value)

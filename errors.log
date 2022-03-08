@@ -1,0 +1,86 @@
+[2022-03-08 20:05:06]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\PostController.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\controllers\PostController.php
+=============
+[2022-03-08 20:05:14]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:05:56]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:05:58]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:05:58]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:05:59]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:05:59]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:06:30]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:06:31]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:06:49]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:06:50]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:06:50]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:06:55]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:06:55]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:06:56]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:06:56]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:06:57]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:07:08]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\controllers\PostController.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\controllers\PostController.php
+=============
+[2022-03-08 20:29:13]Текст ошибкиClass 'R' not found | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php
+=============
+[2022-03-08 20:31:29]Текст ошибкиrequire_once(vendor\fw\libs\rb-mysql.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 4
+=============
+[2022-03-08 20:32:02]Текст ошибкиrequire_once(\..\vendor\fw\libs\rb-mysql.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 4
+=============
+[2022-03-08 20:32:03]Текст ошибкиrequire_once(\..\vendor\fw\libs\rb-mysql.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 4
+=============
+[2022-03-08 20:32:04]Текст ошибкиrequire_once(\..\vendor\fw\libs\rb-mysql.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 4
+=============
+[2022-03-08 20:32:13]Текст ошибкиrequire_once(\vendor\fw\libs\rb-mysql.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 4
+=============
+[2022-03-08 20:32:37]Текст ошибкиrequire_once(vendor/fw/libs/rb-mysql.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 4
+=============
+[2022-03-08 20:32:48]Текст ошибкиrequire_once(/../vendor/fw/libs/rb-mysql.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 4
+=============
+[2022-03-08 20:32:55]Текст ошибкиrequire_once(/vendor/fw/libs/rb-mysql.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 4
+=============
+[2022-03-08 20:32:56]Текст ошибкиrequire_once(/vendor/fw/libs/rb-mysql.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 4
+=============
+[2022-03-08 20:34:52]Текст ошибкиCall to a member function findOne() on null | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-08 20:35:59]Текст ошибкиCall to a member function findOne() on null | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-08 20:36:00]Текст ошибкиCall to a member function findOne() on null | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-08 20:36:02]Текст ошибкиCall to a member function findOne() on null | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-08 20:40:22]Текст ошибкиCall to a member function findOne() on null | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-08 20:40:23]Текст ошибкиCall to a member function findOne() on null | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-08 20:40:23]Текст ошибкиCall to a member function findOne() on null | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-08 20:40:23]Текст ошибкиCall to a member function findOne() on null | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\libs\rb-mysql.php
+=============
+[2022-03-08 20:59:57]Текст ошибкиКонтроллер <b>app\controllers\IController</b>не найден! | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\Router.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\Router.php
+=============
+[2022-03-08 20:59:59]Текст ошибкиСТРАНИЦА НЕ НАЙДЕНА | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\Router.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\Router.php
+=============
+[2022-03-08 21:00:01]Текст ошибкиКонтроллер <b>app\controllers\IndexController</b>не найден! | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\Router.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\Router.php
+=============
+[2022-03-08 21:00:02]Текст ошибкиСТРАНИЦА НЕ НАЙДЕНА | Файл: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\Router.php | Строка: C:\OpenServer\domains\php_blog_v2.local\vendor\fw\core\Router.php
+=============
+[2022-03-08 21:02:10]Текст ошибкиmove_uploaded_file(/uploads/avatarsbbe1751bbb0a8552fe13c1933fbdce7e.jpg): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 169
+=============
+[2022-03-08 21:02:15]Текст ошибкиmove_uploaded_file(/uploads/avatarsbbe1751bbb0a8552fe13c1933fbdce7e.jpg): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 169
+=============
+[2022-03-08 21:04:43]Текст ошибкиmove_uploaded_file(/uploads/avatarsbbe1751bbb0a8552fe13c1933fbdce7e.jpg): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\php_blog_v2.local\app\models\User.php | Строка: 169
+=============
