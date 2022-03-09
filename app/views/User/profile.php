@@ -10,8 +10,9 @@
 <form method="POST" action="/public/user/uploadAvatar" enctype="multipart/form-data">
   <div class="form-group">
     <label for="exampleFormControlFile1">Выберите картинку</label>
-    <input type="file" class="form-control-file" name="avatar">
-    <button type="submit" name="set_avatar">Загрузить</button>
+    <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+    <input name="userfile" type="file" />
+    <input type="submit" value="Отправить файл" />
   </div>
 </form>
 <h2>Профиль</h2>

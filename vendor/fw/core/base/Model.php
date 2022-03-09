@@ -42,6 +42,8 @@ abstract class Model
         {
             $table->$name = $value;
             $date = date('y-m-d');
+            $avatar = 'uploads\avatars\default_avatar.jpg';
+            $table->avatar = $avatar;
             $table->date = $date;
         }
         return \R::store($table);

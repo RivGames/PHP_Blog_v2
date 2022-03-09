@@ -8,7 +8,7 @@ class User extends Model
         'password' => '',
         'name' => '',
         'role' => '1',//тоисть обычный пользователь role=0 это забаненый
-        'avatar'=>'uploads\avatars\default_avatar.jpg',
+        'avatar'=>'',
     ];
     public $attributes1 = [
         'newpassword' => '',
@@ -141,36 +141,32 @@ class User extends Model
         }
         return false;
     }
-    public function avatarSecurity($avatar)
+    public function checkUpload($file)
     {
-        $name = $avatar['name'];
-        $type = $avatar['type'];
-        $size = $avatar['size'];
-        $blacklist = [
-            '.php','.js','.html','.exe','.gif',
-        ];
-        foreach($blacklist as $row){
-            if(preg_match("#$row\$#i",$name))
-                return false;
-        }
-        if(($type != "image/png") && ($type != "image/jpg") && ($type != "image/jpeg")){
-            return false;
-        }
-        if($size > 5 * 1024 * 1024){
-            return false;
-        }
-        return true;
+        if($file['name'] == '')
+		return 'Вы не выбрали файл.';
+	if($file['size'] == 0)
+		return 'Файл слишком большой.';
+	$getMime = explode('.', $file['name']);
+	$mime = strtolower(end($getMime));
+    $types = array('jpg', 'png', 'gif', 'bmp', 'jpeg');
+	if(!in_array($mime, $types))
+		return 'Недопустимый тип файла.';
+	return true;
     }
-    public function loadAvatar($avatar)
+    public function makeUpload($file)
     {
-        $type = $avatar['type'];
-        $uploaddir = '/uploads/avatars';
-        $uploadfile = $uploaddir . basename($_FILES['avatar']['name']);
-        if(move_uploaded_file($_FILES['avatar']['tmp_name'], $uploadfile)){
+        $uploaddir = 'C:\\OpenServer\\domains\\php_blog_v2.local\\uploads\\';
+        $name = mt_rand(1,100000) . $file['name'];
+        $path =  'uploads\\'. $name;
+        $uploadfile = $uploaddir . $name;
+        if(move_uploaded_file($file['tmp_name'], $uploadfile)){
             $user = \R::findOne('user','id=?',[$_SESSION['user']['id']]);
-            $user['avatar'] = $uploadfile;
+            $user['avatar'] = $path;
+            $_SESSION['user']['avatar'] = $path;
             \R::store($user);
-        }else{
+        }else
+        {
             return false;
         }
         return true;

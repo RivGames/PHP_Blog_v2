@@ -1,1 +1,3 @@
-<?php redirect('/public/');
+<?php redirect(); 
+
+?>

@@ -124,15 +124,16 @@ class UserController extends AppController
     public function uploadAvatarAction()
     {
         $title =' ';
-        $data = $_POST;
         $user = new User();
-        if(isset($data['set_avatar'])){
-            $avatar = $_FILES['avatar'];
-            if($user->avatarSecurity($avatar)){
-                $user->loadAvatar($avatar);
-            }else{
-
+        if(isset($_FILES['userfile']))
+        {
+            $check = $user->checkUpload($_FILES['userfile']);
+            if($check == true){
+                $user->makeUpload($_FILES['userfile']);
             }
+        }else
+        {
+            $_SESSION['error'] = 'Вы не выбрали изображение';
         }
         $this->set(compact('title'));
     }

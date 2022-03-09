@@ -13,22 +13,22 @@
     <a class="nav-link active" href="/public/">Главная</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/public/user/signup">Регистрация</a>
+    <a class="nav-link active" href="/public/user/signup">Регистрация</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/public/user/login">Авторизация</a>
+    <a class="nav-link active" href="/public/user/login">Авторизация</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/public/user/logout">Logout</a>
+    <a class="nav-link active" href="/public/user/logout">Logout</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/public/user/profile">Профиль</a>
+    <a class="nav-link active" href="/public/user/profile">Профиль</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/public/post/createArticle">Создать пост</a>
+    <a class="nav-link active" href="/public/post/createArticle">Создать пост</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/public/post/posts">Посты</a>
+    <a class="nav-link active" href="/public/post/posts">Посты</a>
   </li>
 </ul>
     <?php if(isset($_SESSION['error'])): ?>
